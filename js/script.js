@@ -9,7 +9,7 @@ $(document).ready(function() {
       $(".person2").text(person2);
       
      
-     $("#story").show();
+     $("#story").toggle();
       
       event.preventDefault();
     });
